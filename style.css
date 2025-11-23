@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-html, body {
-  height: 100%;
-}
-
 .contenedor {
   display: flex;
   height: 100vh;
@@ -20,9 +16,17 @@ html, body {
   width: 50%;
 }
 
-.C, .A, .F {
+.C{
+    height: 30vh;
+  background-color: rgb(174, 173, 230);
+}
+ .A{
+    height: 30vh;
+  background-color: rgb(191, 230, 173);
+ }
+  .F {
   height: 30vh;
-  background-color: lightblue;
+  background-color: rgb(230, 173, 221);
 }
 
 .D {
