@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+.contenedor {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.izquierda, .derecha {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.C, .A, .F {
+  height: 30vh;
+  background-color: lightblue;
+}
+
+.D {
+  flex: 1;
+  background-color: lightgreen;
+}
+
+.B {
+  flex: 1;
+  background-color: lightcoral;
+}
