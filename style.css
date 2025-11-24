@@ -21,7 +21,7 @@
   background-color: rgb(174, 173, 230);
 }
  .A{
-    height: 30vh;
+    height: 40vh;
   background-color: rgb(191, 230, 173);
  }
   .F {
@@ -30,7 +30,7 @@
 }
 
 .D {
-  flex: 1;
+  flex: 2;
   background-color: lightgreen;
 }
 
