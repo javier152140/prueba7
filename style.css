@@ -1,62 +1,68 @@
-* {
+html, body{
+  height: 100%;
+ margin: 0;
+ padding: 0;
+}
+.contenedor{
+  height: 70%;
+  width: 100%;
+  display: flex;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
-
-.contenedor {
-  display: flex;
-  height: 100vh;
-  width: 100vw;
-}
-
-.izquierda, .derecha {
+.izquierda{
+  height: 100%;
+  width: 70%;
+  margin: 0;
   display: flex;
   flex-direction: column;
-  width: 50%;
+  padding: 0;
 }
-
 .C{
+  flex: 3;
+  font-size: 10px;
+  flex-direction: column;
+  background-color: aqua;
+}
+.D{
+ flex: 4;
+  background-color: blue;
+}
+.derecha{
+  height: 100%;
+  width: 30%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  text-align: center;
-    width: 450px;
-    margin-left: auto;
-    padding: 20px;
-    flex: 10;
-  background-color: rgb(174, 173, 230);
+  margin: 0;
+  padding: 0;
 }
- .A{
-    height: 20vh;
-    text-align: center;
-  background-color: rgb(191, 230, 173);
-  
- }
-  .F {
-  height: 50vh;
-  width: 1600px;
-  align-items: center;
-  justify-content: center;
+.B{
+  flex: 1;
   display: flex;
-  background-color: rgb(230, 173, 221);
-  text-align: center;
+  flex-direction: column;
+  background-color:chartreuse;
+  margin: 0;
+  padding: 0;
 }
-
-.D {
-  text-align: center;
-  align-items: center;
-  justify-content: center;
+.inferior{
+  height: 30%;
+  width: 100%;
   display: flex;
-  height: 30vh;
-  width: 1500px;
-  background-color: lightgreen;
+  margin: 0;
+  padding: 0;
 }
-
-.B {
-  height: 20vh;
-  width: 955px;
-  text-align: center;
-  background-color: lightcoral;
-  list-style-position: inside;
+.A{
+  height: 100%;
+  width: 50%;
+  background-color: crimson;
+  font-size: 11px;
+  margin: 0;
+  padding: 0;
+}
+.F{
+  height: 100%;
+  width: 50%;
+  background-color: gold;
+  margin: 0;
+  padding: 0;
 }
